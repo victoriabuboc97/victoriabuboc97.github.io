@@ -1,7 +1,6 @@
 html,
 body,
-.container,
-.man {
+.container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,4 +10,11 @@ body,
 html,
 body {
   background-image: url('background.jpg');
+}
+
+.avatar {
+    border-radius: 100;
+    height: 20rem;
+    width: 20rem;
+    object-fit: cover;
 }
