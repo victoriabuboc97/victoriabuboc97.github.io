@@ -1,0 +1,14 @@
+html,
+body,
+.container,
+.man {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  background-image: url('background.jpg');
+}
